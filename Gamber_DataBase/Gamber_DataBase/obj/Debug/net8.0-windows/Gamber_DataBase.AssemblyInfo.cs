@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gamber_DataBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08444b017535261a921019fdc8e72c4d0f9dc44f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bfe1d01342e36fad2d4736091af12c793ad624e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gamber_DataBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gamber_DataBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
