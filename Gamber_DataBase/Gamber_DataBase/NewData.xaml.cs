@@ -37,7 +37,6 @@ namespace Gamber_DataBase
                 var g = new Gamblers(name, credit, card, addr, debt, birth, isMinor);
                 _gamblerList.Add(g);
 
-                // Append to file
                 File.AppendAllText(FilePath, $"{name}; {credit}; {card}; {addr}; {debt}; {birth}; {isMinor.ToString().ToLower()}\n", Encoding.UTF8);
                 this.Close();
             }
