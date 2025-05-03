@@ -18,22 +18,22 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Vertical">
             <Label HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10">Keresés</Label>
-            <TextBox x:Name="TB_search" Width="400" Height="50" Margin="10"/>
+            <TextBox x:Name="TB_search" Width="400" Height="50" Margin="10" TextChanged="TB_search_TextChanged"/>
         </StackPanel>
-        <DataGrid Grid.Row="2">
+        <DataGrid x:Name="GamblersDataGrid" Grid.Row="2" AutoGenerateColumns="False" ItemsSource="{Binding GamblersList}">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Név" Width="1.5*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Credit"  Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Kártyaszám"  Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Lakcím"  Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Adósság"  Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Születési Dátum"  Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Width="Auto" Header="18+"></DataGridTextColumn>
+                <DataGridTextColumn Header="Név" Width="1.5*" Binding="{Binding Name}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Credit"  Width="*" Binding="{Binding CreditScore}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Kártyaszám"  Width="*" Binding="{Binding CardInfo}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Lakcím"  Width="*" Binding="{Binding Address}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Adósság"  Width="*" Binding="{Binding Debt}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Születési Dátum"  Width="*" Binding="{Binding Birthday}"></DataGridTextColumn>
+                <DataGridCheckBoxColumn Header="18+" Width="Auto" Binding="{Binding isMinor}" />
             </DataGrid.Columns>
         </DataGrid>
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Grid.ColumnSpan="2">
-            <Button x:Name="BTN_new" Width="250" Height="50" Margin="10" FontWeight="Bold" FontSize="15">Új data felvétele</Button>
-            <Button x:Name="BTN_delete" Width="250" Height="50" Grid.Column="1" Margin="10" FontWeight="Bold" FontSize="15">Data törlése</Button>
+            <Button x:Name="BTN_new" Width="250" Height="50" Margin="10" FontWeight="Bold" FontSize="15" Click="BTN_new_Click">Új data felvétele</Button>
+            <Button x:Name="BTN_delete" Width="250" Height="50" Grid.Column="1" Margin="10" FontWeight="Bold" FontSize="15" Click="BTN_delete_Click">Data törlése</Button>
         </StackPanel>
     </Grid>
 </Window>

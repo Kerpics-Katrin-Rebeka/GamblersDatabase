@@ -1,0 +1,33 @@
+{Name; CreditScore; CardInfo; Address; Debt; Birthday; isMinor}
+Kerpics Katrin; 0,1; 12345678,08/28,688; Gyorujbarat, Burgir Street,15,; 23498234234234; 2007.05.15; true
+Luo Hong Jun; 10; 32423423,12/12,834; Gyor, Pava Utca, 38/E; 70000; 2006.10.22; false
+Hajbassy Bálint; 2,3; 98423463,04/25,666; Moon, Skibidi Street, 68; 32432846286342634871236418, 2007.01.16; true
+Mark I'plier; 750; 98765432,12/26,123; Los Angeles, Sunset Blvd, 42; 0; 1989.06.28; false
+Lightning McQueen; 600; 23456789,11/25,321; New York, 5th Avenue, 101; 15000; 1995.02.14; false
+John Fortnite; 450; 87654321,09/27,654; Tiltedtowers, Boogiebomb Street, 2020; 30000; 2003.07.22; false
+Alice Wonderland; 820; 34567890,08/30,987; San Francisco, Bay Area, 15; 0; 1998.12.05; false
+Bob Builder; 500; 76543210,07/24,741; Dallas, Hammer Rd, 77; 22000; 2005.01.19; false
+Charlie Chaplin; 700; 56789012,06/23,852; London, Comedy Lane, 3; 10000; 1992.04.16; false
+David Copperfield; 680; 65432109,05/29,369; Las Vegas, Magic Dr, 9; 25000; 2000.09.30; true
+Emily Rose; 550; 78901234,04/21,951; Salem, Horror Ave, 66; 17000; 2006.11.13; false
+Frank Castle; 620; 89012345,03/20,753; Hell’s Kitchen, Punisher St, 187; 50000; 1980.06.07; false
+Grace Hopper; 900; 90123456,02/19,258; Washington DC, Code St, 404; 0; 1906.12.09; false
+Henry Jekyll; 580; 01234567,01/18,147; London, Hyde Lane, 7; 40000; 1985.10.02; false
+Isabella Swan; 670; 34560987,10/17,369; Forks, Twilight Ave, 108; 8000; 1991.09.13; false
+Jack Sparrow; 420; 67890123,12/16,159; Caribbean, Black Pearl, 1; 60000; 1700.07.09; false
+Karen Smith; 730; 78901234,11/15,852; Los Angeles, Gossip Blvd, 33; 12000; 2004.02.03; false
+Leo DiCaprio; 850; 89012345,10/14,357; Hollywood, Oscar St, 11; 0; 1974.11.11; false
+Mickey Mouse; 300; 90123456,09/13,258; Disneyland, Cartoon Ave, 1928; 100000; 1928.11.18; false
+Nancy Drew; 660; 01234567,08/12,741; River Heights, Mystery Ln, 12; 2500; 1930.04.28; false
+Oliver Twist; 520; 23456789,07/11,369; London, Orphan St, 19; 5000; 1838.02.07; false
+Peter Parker; 750; 34567890,06/10,951; New York, Queens, 20; 0; 2001.08.10; true
+Quincy Adams; 700; 45678901,05/09,753; Boston, History Ave, 182; 0; 1767.07.11; true
+Rapunzel Hairington; 480; 56789012,04/08,369; Disney, Tower Blvd, 1000; 70000; 1812.05.18; false
+Steve Rogers; 999; 67890123,03/07,159; Brooklyn, Shield St, 1; 0; 1918.07.04; false
+Tom Nook; 400; 78901234,02/06,852; Animal Crossing, Loan St, 5; 99999; 2001.01.01; false
+Ursula Seas; 560; 89012345,01/05,357; Underwater, Villain Cove, 69; 34000; 1989.06.30; false
+Victor Frankenstein; 600; 90123456,12/04,258; Geneva, Science Rd, 42; 27000; 1818.01.01; false
+Wendy Darling; 530; 01234567,11/03,741; London, Neverland St, 14; 32000; 1904.06.22; false
+Xavier Magneto; 780; 23456789,10/02,369; New York, Mutant St, 99; 0; 1963.09.01; false
+Yennefer Vengerberg; 850; 34567890,09/01,951; The Continent, Sorcery Blvd, 77; 0; 1173.12.21; false
+Zelda Hyrule; 870; 45678901,08/30,753; Hyrule, Castle Rd, 1; 0; 1986.02.21; false

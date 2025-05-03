@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Gamber_DataBase/1.0.0": {
+        "runtime": {
+          "Gamber_DataBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gamber_DataBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
