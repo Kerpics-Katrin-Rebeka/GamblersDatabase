@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GamblersDatabase
 {
-    internal class Gamblers
+    public class Gamblers
     {
         public string Name { get; set; }
         public float CreditScore { get; set; }
@@ -18,13 +18,13 @@ namespace GamblersDatabase
 
         public Gamblers(string name, float creditscore, string cardinfo, string address, float debt, string birthday, bool isminor)
         {
-            name = Name;
-            creditscore = CreditScore;
-            cardinfo = CardInfo;
-            address = Address;
-            debt = Debt;
-            birthday = Birthday;
-            isminor = isMinor;
+            Name = name;
+            CreditScore = creditscore;
+            CardInfo = cardinfo;
+            Address = address;
+            Debt = debt;
+            Birthday = birthday;
+            isMinor = isminor;
         }
     }
 }

@@ -13,21 +13,21 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Név</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbName" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Credit</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbCredit" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Kártyaszám</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbCard" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Lakcím</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbAddress" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Adósság</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbDebt" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
             <Label Width="200" Height="Auto" HorizontalContentAlignment="Center" FontSize="20" Margin="10">Születés dátuma</Label>
-            <TextBox Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
+            <TextBox x:Name="tbBirth" Width="400" Height="40" FontWeight="Bold" Margin=" 10 0 10 5"></TextBox>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Width="200" Height="50" Margin="10" FontSize="15" FontWeight="Bold">Új Adat Felvétele</Button>
-            <Button Width="200" Height="50" Margin="10" FontSize="15" FontWeight="Bold">Mégse</Button>
+            <Button x:Name="btnAdd" Width="200" Height="50" Margin="10" FontSize="15" FontWeight="Bold" Click="btnAdd_Click">Új Adat Felvétele</Button>
+            <Button x:Name="btnCancel" Width="200" Height="50" Margin="10" FontSize="15" FontWeight="Bold" Click="btnCancel_Click">Mégse</Button>
         </StackPanel>
     </Grid>
 </Window>
